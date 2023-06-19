@@ -10,7 +10,7 @@ export default defineConfig({
     build: {
       rollupOptions: {
         output: {
-          entryFileNames: 'assets/js/[name].js',
+          entryFileNames: 'assets/js/app.js',
           assetFileNames: (assetInfo) => {
           let extType = assetInfo.name.split('.')[1];
           //Webフォントファイルの振り分け
