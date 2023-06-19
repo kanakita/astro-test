@@ -1,5 +1,6 @@
 ---
 import '../css/style.css';
+import Button from "../components/Button";
 export interface Props {
 	title: string;
 }
@@ -20,6 +21,7 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
+	<Button title="ボタン" className="button" client:load />
 	<p class="test-text">テストああああ</p>
 		<slot />
 	</body>

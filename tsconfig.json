@@ -2,6 +2,7 @@
   "extends": "astro/tsconfigs/strict",
   "baseUrl": ".",
   "compilerOptions": {
-    "lib": ["ESNext", "DOM"]
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react"
   }
 }
