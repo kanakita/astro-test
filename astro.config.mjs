@@ -2,15 +2,18 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'static',
   vite: {
+    server: {
+      open: true,
+    },
     build: {
       rollupOptions: {
         output: {
-          entryFileNames: 'assets/[name].js',
-          assetFileNames: 'assets/index[extname]',
+          entryFileNames: 'assets/js/app.js',
+          assetFileNames: 'assets/css/style[extname]',
         }
-      },
-      minify: false
-    },
+      }
+    }
   },
 });
