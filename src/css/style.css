@@ -1,0 +1,19 @@
+@import './setting/_colors.css';
+@import './module/_module.css';
+@import '../components/Card/Card.css';
+body {
+    font-size: 20px;
+    color: #f00;
+
+    p {
+        color: #ff0;
+    }
+}
+
+.test-text {
+    color: #00f;
+
+    p {
+        color: #fff;
+    }
+}

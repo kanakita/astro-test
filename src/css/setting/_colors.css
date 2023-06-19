@@ -1,0 +1,10 @@
+
+:root {
+  --primary: #1d2088;
+  --primary-light: #00afec;
+  --primary-pale: #f5fcff;
+  --primary-gradient-color: linear-gradient(90deg, #00afec 0%, #1d2088 100%);
+  --black: #000;
+  --white: #fff;
+  --gray-border: #ddd;
+}
